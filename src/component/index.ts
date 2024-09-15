@@ -1,1 +1,1 @@
-export { greet } from "./greeting";
+export { ScrapingVideoGames, ProductType } from "./scraping"

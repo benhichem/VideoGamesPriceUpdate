@@ -1,12 +1,12 @@
-# {{param `github.repo` | replace `-` ` ` | titlecase}}
-{{param `description` `` `Project description: `}}
+# Videogamespriceupdate
 
-Tags: {{param `tags` `` `Project tags: `}}
+
+Tags: 
 
 *Note: This project has been generated using the following [templating system](./TEMPLATE.md)*
 
 ## Table of Contents
-- [{{param `github.repo` | replace `-` ` ` | titlecase}}](#param-githubrepo--replace------titlecase)
+- [Videogamespriceupdate](#param-githubrepo--replace------titlecase)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -27,4 +27,4 @@ To contribute, follow the guidelines detailed [here](./CONTRIBUTE.md).
 This project is licensed under the [MIT License](./LICENSE).
 
 ## Author
-{{param `git.name`}}<<{{param `git.email`}}>>
+benhichem<<hichemben45@gmail.com>>

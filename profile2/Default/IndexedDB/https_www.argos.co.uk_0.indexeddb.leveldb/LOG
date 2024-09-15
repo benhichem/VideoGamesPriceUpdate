@@ -1,0 +1,10 @@
+2024/09/15-03:03:37.058 3de3 Reusing MANIFEST /home/coffee/repos/VideoGamesPriceUpdate/profile2/Default/IndexedDB/https_www.argos.co.uk_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/15-03:03:37.059 3de3 Recovering log #23
+2024/09/15-03:03:37.216 3de3 Reusing old log /home/coffee/repos/VideoGamesPriceUpdate/profile2/Default/IndexedDB/https_www.argos.co.uk_0.indexeddb.leveldb/000023.log 
+2024/09/15-03:04:07.417 3dd4 Level-0 table #28: started
+2024/09/15-03:04:07.552 3dd4 Level-0 table #28: 848756 bytes OK
+2024/09/15-03:04:07.565 3dd4 Delete type=0 #23
+2024/09/15-03:04:08.088 3de2 Compacting 1@1 + 1@2 files
+2024/09/15-03:04:08.157 3de2 Generated table #29@1: 885 keys, 102882 bytes
+2024/09/15-03:04:08.157 3de2 Compacted 1@1 + 1@2 files => 102882 bytes
+2024/09/15-03:04:08.185 3de2 compacted to: files[ 0 0 1 0 0 0 0 ]

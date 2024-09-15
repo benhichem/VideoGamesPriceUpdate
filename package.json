@@ -1,7 +1,7 @@
 {
-  "name": "{{param `github.repo` | lowercase}}",
+  "name": "videogamespriceupdate",
   "version": "1.0.0",
-  "description": "{{param `description`}}",
+  "description": "",
   "main": "dist/index.js",
   "engines": {
     "npm": ">=10.8.1",
@@ -13,20 +13,21 @@
     "start": "npm run build && node --experimental-specifier-resolution=node .",
     "start:watch": "nodemon src/index.ts",
     "dev": "mprocs",
+    "printdb":"npm run build && node --experimental-specifier-resolution=node dist/utils/print_db.js",
     "lint": "eslint ./src/**/*.ts",
     "build": "npm run clear && tsc",
     "clear": "rimraf dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{param `github.owner`}}/{{param `github.repo`}}.git"
+    "url": "git+https://github.com/benhichem/VideoGamesPriceUpdate.git"
   },
-  "author": "{{param `git.name`}}<{{param `git.email`}}>",
+  "author": "benhichem<hichemben45@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/{{param `github.owner`}}/{{param `github.repo`}}/issues"
+    "url": "https://github.com/benhichem/VideoGamesPriceUpdate/issues"
   },
-  "homepage": "https://github.com/{{param `github.owner`}}/{{param `github.repo`}}#readme",
+  "homepage": "https://github.com/benhichem/VideoGamesPriceUpdate#readme",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^8.0.1",
@@ -39,5 +40,15 @@
     "ts-jest": "^29.2.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "json-2-csv": "^5.5.5",
+    "puppeteer": "^23.3.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "reflect-metadata": "^0.2.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.20"
   }
 }

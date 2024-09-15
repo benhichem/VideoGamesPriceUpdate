@@ -7,3 +7,8 @@ procs:
     shell: "npm run test:watch"
     env:
       NODE_ENV: test
+  shell:
+    shell: zsh
+    cwd: .
+  typescript:
+    shell: tsc --watch

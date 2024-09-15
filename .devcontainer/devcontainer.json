@@ -1,5 +1,5 @@
 {
-  "name": "{{param `github.owner`}}/{{param `github.repo`}}",
+  "name": "benhichem/VideoGamesPriceUpdate",
   "dockerFile": "Dockerfile",
   "customizations": {
     "vscode": {
